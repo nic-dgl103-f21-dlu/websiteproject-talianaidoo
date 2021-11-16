@@ -1,0 +1,58 @@
+/** Home Page **/
+
+body.home {
+    color:black;
+    background-color:whitesmoke;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 2 rem;
+
+}
+
+
+.home nav {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.home nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.home nav ul li:nth-child(1) {
+    float: left;
+}
+
+.home nav ul li:nth-child(2) {
+    float: left;
+}
+
+.home nav ul li:nth-child(3) {
+    float: right;
+}
+
+.home nav ul li:nth-child(4) {
+    float: right;
+}
+
+.home nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.home nav ul li a :hover{
+    color: burlywood;
+}
+
+.home  {
+    width: 100%;
+    position: relative;
+
+}
+
