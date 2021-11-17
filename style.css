@@ -10,8 +10,15 @@ body.home {
 
 
 .home nav {
+    background-color: dimgray;
     margin: 0 auto;
     width: 1170px;
+}
+
+.home nav .wrapper {
+    width: 800px;
+    margin: auto;
+    
 }
 
 .home nav ul {
@@ -46,13 +53,18 @@ body.home {
     padding: 10px 20px;
 }
 
-.home nav ul li a :hover{
-    color: burlywood;
-}
-
-.home  {
-    width: 100%;
+.home header {
     position: relative;
 
 }
+
+.home main  {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+}
+
+
+
+
 
