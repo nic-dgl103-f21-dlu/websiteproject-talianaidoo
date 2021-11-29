@@ -6,7 +6,7 @@ body {
     color:black;
     background-color:whitesmoke;
     font-family: 'Cormorant Garamond', serif;
-    line-height: 2 rem;
+    line-height: 2rem;
     margin: 0;
     padding: 0;
 
@@ -120,7 +120,7 @@ body, html {
     height: 100%;
 }
 
-.home .hero-image {
+.index .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/home_dusting_db.jpg);
   height: 100%;
   background-position: center;
@@ -130,7 +130,7 @@ body, html {
   top: 0;
 }
 
-.home .hero-text {
+.index .hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -144,7 +144,7 @@ body, html {
   margin-top: 10px;
 }
 
-.home main button {
+.index main button {
     background-color:rgb(172, 163, 147);
     border: none;
     color: white;
@@ -174,14 +174,14 @@ footer .wrapper {
 }
 
 /*Cards*/
-.home .column {
+.index .column {
     float: left;
     width: 33.33%;
     padding: 10px 10px;
   }
   
 
-.home  .row {margin: 0 -5px;}
+.index  .row {margin: 0 -5px;}
 
 
   .row:after {
@@ -192,14 +192,14 @@ footer .wrapper {
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
- .home   .column {
+ .index   .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
     }
   }
   
-.home  .card {
+.index  .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 25px;
     text-align: center;
@@ -207,7 +207,7 @@ footer .wrapper {
     margin-top: 50px;
   }
 
-  .home button {
+  .index button {
     background-color:rgb(172, 163, 147);
     border: none;
     color: white;
