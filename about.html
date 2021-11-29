@@ -6,46 +6,61 @@
     <meta name="viewport" content="width=device-width, intial scale=1.0">
     <title>Daves Bakery</title>
     <meta charset="utf-8">
+    <link rel="icon" href="images/Daves_Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-<!--Logo - this must go on the side of the nav bar-->
+<!--Logo -->
 <body class="about">
     <header>
-        <a href="index.html"><img src="images/Daves_Logo.png" alt="Daves Bakery Logo" width="100"></a>
+        <div class="logo">
+        <a href="index.html"><img src="Images/Daves_Logo.png" alt="Daves Bakery Logo" width="100px" class="center"></a>
+        </div>
     </header>
 
-    <!--NAV Bar -  continuous not divided-->
+    <!--NAV Bar-->
     <nav>
-        <div class="inner main menu">
-            <ul>
+            <ul class="wrapper">
                 <li><a href="home.html">Home</a>&nbsp;</li>
                 <li><a href="about.html">About</a>&nbsp;</li>
                 <li><a href="menu.html">Menu</a>&nbsp;</li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </div>
     </nav>
 
 
     <!-- Cards -->
     <!--Card 1 - Our Story -->
-    <div class="card">
-        <img src="Images/contact_db.jpg" alt="menu" style="width:100%">
-        <div class="container">
+    <div class="row-one">
+        <div class="column-one">
+          <div class="card-one">
+            <img src="images/contact_db.jpg" alt="About" width="80%">
+          </div>
         </div>
-        <p>Dave's Bakery is a locally owned and operated wholesale bakery and retail cafe. We specialise in bread making and pastries that made with organic and locally sources ingredients. All breads and pastries are made by hand, from scratch using old techniques and pure ingredients.</p>
+    
+        <aside>
+            <figure>
+                <img src="images/major-plant-groups.png" alt="major-plant-groups" width="250">
+                <figcaption class="majorplants"></figcaption>
+            </figure>
+            <p>Dave's Bakery is a locally owned and operated wholesale bakery and retail cafe. We specialise in bread making and pastries that made with organic and locally sources ingredients. All breads and pastries are made by hand, from scratch using old techniques and pure ingredients.</p>
+        </aside>
+        
       </div>
 
     <!--Card 2 - Menu-->
-      <div class="card">
-        <img src="Images/food_menu_db.jpg" alt="menu" style="width:100%">
-        <div class="container">
+    <div class="row-two">
+        <div class="column-two">
+          <div class="card-two">
+            <img src="images/out_team_db.jpg" alt="About" width="80%">
+          </div>
+        </div>
+
+        <div class="one-p">
             <p>Our team is committed to giving you the best bread and pastries and experience. We are a team of fun, diverse people who have a shared passion for baking and putting smiles on our customers faces! </p>
         </div>
-      </div>
-    
+     
 
       <!--Footer must include the address-->
       <footer>
