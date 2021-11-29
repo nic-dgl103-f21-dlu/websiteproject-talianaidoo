@@ -28,7 +28,7 @@ nav {
     width: 100%;
     z-index: 12;
     position: fixed;
-    float: right;
+    top: 0;
     line-height: 25px;
 
 }
@@ -127,6 +127,7 @@ body, html {
   background-repeat: no-repeat; 
   background-size: cover;
   position: relative;
+  top: 0;
 }
 
 .home .hero-text {
@@ -138,7 +139,9 @@ body, html {
   color: whitesmoke;
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Source Code Pro', monospace;
-  font-size: 20px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 10px;
 }
 
 .home main button {
@@ -216,6 +219,8 @@ footer .wrapper {
     margin-top: 25px;
 }
 
+
+
 /*ABOUT PAGE*/
 
 /*Cards*/
@@ -223,7 +228,7 @@ footer .wrapper {
 .about .column-one {
     float: right;
     width: 25%;
-    padding: 10px 10px;
+    padding: 10px;
   }
   
 
@@ -249,6 +254,7 @@ footer .wrapper {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px;
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
@@ -291,6 +297,7 @@ footer .wrapper {
 .about  .card-two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 10px;
+    padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
@@ -302,9 +309,164 @@ footer .wrapper {
   }
   
   .about aside {
-    border: 1px solid #43C6Ac;
-    padding: 15px;
-    float: right;
-    width: 35%;
+    padding: 25px;
+    float: left;
+    width: 45%;
     flex-flow: wrap;
+    margin-top: 100px;
+    margin-left: 250px;
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    letter-spacing: 2px;
   }
+  
+
+/*MENU PAGE*/
+
+.menu .hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bread_db.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: relative;
+  top: 0;
+}
+
+.menu .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.menu main button {
+    background-color:rgb(172, 163, 147);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/*CARDS*/
+
+.menu .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 10px;
+}
+
+
+.menu  .row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.menu   .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.menu  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  margin-top: 50px;
+}
+
+.menu button {
+  background-color:rgb(172, 163, 147);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+/*CONTACT PAGE*/
+
+.contact .column-one {
+  float: right;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.contact .row-one {margin: 0 -5px;}
+
+
+.row-one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.contact .column-one {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.contact  .card-one {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.contact .one-p {
+    text-align: right;
+}
+
+.contact aside {
+  padding: 25px;
+  float: left;
+  width: 45%;
+  flex-flow: wrap;
+  margin-top: 70px;
+  margin-left: 250px;
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.contact .card {
+  margin-left: 50px;
+  margin-top: 50px;
+}
