@@ -470,3 +470,47 @@ footer .wrapper {
   margin-left: 50px;
   margin-top: 50px;
 }
+
+.contact .card{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact input[type=submit] {
+  width: 100%;
+  background-color: rgb(172, 163, 147);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+  background-color: rgb(172, 163, 147);
+}
+
+.contact .form {
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
+  width: 45%;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 450px;
+}
+
+.contact h4 {
+  text-align: center;
+}
