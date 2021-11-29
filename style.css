@@ -163,10 +163,11 @@ footer {
     background-color:rgb(172, 163, 147);
     color:whitesmoke;
     margin-bottom: 0;
+    text-align: center;
 }
 
 footer .wrapper {
-    width: 800px;
+    width: 970px;
     margin: auto;
     padding: 15px;
     margin-top: 60px;
